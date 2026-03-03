@@ -3,14 +3,26 @@
   "builds": [
     {
       "src": "server.js",
-      "use": "@vercel/node",
-      "config": { "maxDuration": 10 }
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/api/(.*)",
       "dest": "server.js"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "public/$1",
+      "check": true
+    },
+    {
+      "src": "/(.*)",
+      "status": 200,
+      "dest": "public/index.html"
     }
   ]
 }
