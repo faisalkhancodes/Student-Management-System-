@@ -165,7 +165,7 @@ SMS-DBMS/
 ## Support
 
 For any issues or queries, please contact:
-- Email: faisalkhan615202005@gmail.com
+- Email: faisalkhan.codes@gmail.com
 
 ## License
 
@@ -175,6 +175,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Faisal Khan
 
+https://ifaisalkhan.netlify.app/
+
+
 ---
 
-© 2024 Student Management System. All rights reserved. 
+
+© 202 Student Management System. All rights reserved. 
