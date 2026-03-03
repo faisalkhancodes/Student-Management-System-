@@ -1,3 +1,5 @@
+app.use(express.static('public'));
+
 require('dotenv').config();
 const mysql = require('mysql2/promise');
 const express = require('express');
@@ -151,3 +153,4 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
