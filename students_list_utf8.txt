@@ -1,0 +1,38 @@
+﻿Database connection successful
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Test Jerry",
+    "email": "test_user_789@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Faisal Khan",
+    "email": "Khan@example.com"
+  },
+  {
+    "id": 4,
+    "name": "Test User",
+    "email": "test@example.com"
+  },
+  {
+    "id": 5,
+    "name": "Iqra",
+    "email": "Iqra@gmail.com"
+  },
+  {
+    "id": 6,
+    "name": "Debug User",
+    "email": "debug@example.com"
+  },
+  {
+    "id": 7,
+    "name": "Log User",
+    "email": "log@example.com"
+  }
+]
